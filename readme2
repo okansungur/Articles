@@ -1,0 +1,9 @@
+
+Total Time 
+Create an object, serialize it to a byte array, then deserialize it back to an object.
+
+
+
+
+
+https://code.google.com/p/thrift-protobuf-compare/wiki/BenchmarkingV2
