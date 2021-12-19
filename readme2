@@ -2,7 +2,11 @@
 Total Time 
 Create an object, serialize it to a byte array, then deserialize it back to an object.
 
+Serialization Time 
+Create an object, serialize it to a byte array. * Java's built-in serializer faithfully represents arbitrary object graphs, which hurts performance.
 
+Deserialization Time 
+Often the most expensive operation. To make a fair comparison, all fields of the deserialized instances are accessed - this forces lazy deserializers to really do their work. The raw data below shows additional measurements for deserialization.
 
 
 
