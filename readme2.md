@@ -1,5 +1,6 @@
+## REST,AVRO, ThriftProtocol, Buffers, MessagePack   serialization technologies
 
-Representational state transfer   is the  software architecture used for web services. RESTful web services provides  computer systems and internet work together.
+**REST**: Representational state transfer   is the  software architecture used for web services. RESTful web services provides  computer systems and internet work together.
 According to rest api clients and servers are separated from each other. Server doesnt keep any information about the client so its stateless.
 They have uniform interface and are loosely coupled, like the way we want in microservices. They have a layered system.They can also extend the functionality of client temporarly on demand.
 A RESTful web application provides information about its resources. Resources are identified with the help of URLs.
