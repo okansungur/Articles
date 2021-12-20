@@ -1,4 +1,4 @@
-## REST,AVRO, Thrift , GRPC , MessagePack   serialization technologies
+## Rerialization Technologies Rest, Avro,Thrift, Grpc , MessagePack   
 
 **REST**: Representational state transfer   is the  software architecture used for web services. RESTful web services provides  computer systems and internet work together.
 According to rest api clients and servers are separated from each other. Server doesnt keep any information about the client so its stateless.
