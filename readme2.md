@@ -1,11 +1,15 @@
-## REST,AVRO, ThriftProtocol, Buffers, MessagePack   serialization technologies
+## REST,AVRO, Thrift , GRPC , MessagePack   serialization technologies
 
 **REST**: Representational state transfer   is the  software architecture used for web services. RESTful web services provides  computer systems and internet work together.
 According to rest api clients and servers are separated from each other. Server doesnt keep any information about the client so its stateless.
 They have uniform interface and are loosely coupled, like the way we want in microservices. They have a layered system.They can also extend the functionality of client temporarly on demand.
 A RESTful web application provides information about its resources. Resources are identified with the help of URLs.
 
-For thrift please checkout [Apache Thrift and Spring Boot](https://okansungur.medium.com/apache-thrift-and-spring-boot-8af7fd3ccb09)
+- For Apache Thrift please checkout [Apache Thrift and Spring Boot](https://okansungur.medium.com/apache-thrift-and-spring-boot-8af7fd3ccb09)
+- For protocol buffers please checkout [GRPC Spring Boot Tutorial](https://okansungur.medium.com/grpc-springboot-tutorial-fbc0c0a60780)
+- For  Apache Avro please checkout [Kafka, Apache Avro and Confluent Platform with Spring Boot](https://okansungur.medium.com/kafka-apache-avro-and-confluent-platform-with-spring-boot-ed86378e2d6b)
+- For MessagePack please checkout [MessagePack Tutorial with Spring Boot](https://okansungur.medium.com/messagepack-tutorial-with-spring-boot-ed80c756b14d)
+
 
 But what is the best serialization technology and how are we going to decide.
 If we have already started with  protocol buffers we should go on with that . Or if we are using json we should go on with that MessagePack should be considered here for optimization.
