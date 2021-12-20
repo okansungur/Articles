@@ -1,4 +1,23 @@
 
+Representational state transfer   is the  software architecture used for web services. RESTful web services provides  computer systems and internet work together.
+According to rest api clients and servers are separated from each other. Server doesnt keep any information about the client so its stateless.
+They have uniform interface and are loosely coupled, like the way we want in microservices. They have a layered system.They can also extend the functionality of client temporarly on demand.
+A RESTful web application provides information about its resources. Resources are identified with the help of URLs.
+
+But what is the best serialization technology and how are we going to decide.
+If we have already started with  protocol buffers we should go on with that . Or if we are using json we should go on with that.
+Avro should be used if we are dealing with big data.
+
+
+
+Facebook, Cassandra project  Apache Thrift
+Google,  ActiveMQ Protocol Buffers
+Protocol Buffers have a better documentation when compared with Apache Thrift. Protocol Buffers are slightly faster. On the other hand Thrift is a much bigger project
+than Avro or Protocol Buffers, as it’s not just a data serialization library, but also an entire RPC framework
+
+
+
+
 Total Time 
 Create an object, serialize it to a byte array, then deserialize it back to an object.
 
