@@ -14,10 +14,12 @@ Avro Apache Hadoop
 Protocol Buffers have a better documentation when compared with Apache Thrift. Protocol Buffers are slightly faster. 
 Avro does not require that code be generated. Data is always accompanied by a schema that permits full processing of that data without
 code generation, static datatypes, etc.
-In Avro serialisation and deserialization can be done without code generation. But there is also Code generation.Code generation is also available for statically typed languages such as java 
+In Avro serialisation and deserialization can be done without code generation. Also code generation is also available for statically typed languages such as java 
 
 
 
+
+There is a Benchmarking for thrift-protobuf-Avro and you get get the document from [Benchmark](https://code.google.com/archive/p/thrift-protobuf-compare/wikis/BenchmarkingV2.wiki)
 
 
 
