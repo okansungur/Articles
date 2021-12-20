@@ -25,8 +25,6 @@ code generation, static datatypes, etc.
 In Avro serialisation and deserialization can be done without code generation. Also code generation is also available for statically typed languages such as java 
 
 
-
-
 There is a Benchmarking for thrift-protobuf-Avro and you can get the document from [Benchmark](https://code.google.com/archive/p/thrift-protobuf-compare/wikis/BenchmarkingV2.wiki) There is also serialization and deserialization performances 
 
 
