@@ -5,6 +5,8 @@ According to rest api clients and servers are separated from each other. Server 
 They have uniform interface and are loosely coupled, like the way we want in microservices. They have a layered system.They can also extend the functionality of client temporarly on demand.
 A RESTful web application provides information about its resources. Resources are identified with the help of URLs.
 
+For thrift please checkout [Apache Thrift and Spring Boot](https://okansungur.medium.com/apache-thrift-and-spring-boot-8af7fd3ccb09)
+
 But what is the best serialization technology and how are we going to decide.
 If we have already started with  protocol buffers we should go on with that . Or if we are using json we should go on with that MessagePack should be considered here for optimization.
 Avro should be used if we are dealing with big data.
