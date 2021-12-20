@@ -11,14 +11,14 @@ A RESTful web application provides information about its resources. Resources ar
 - For MessagePack please checkout [MessagePack Tutorial with Spring Boot](https://okansungur.medium.com/messagepack-tutorial-with-spring-boot-ed80c756b14d)
 
 
-But what is the best serialization technology and how are we going to decide.
-If we have already started with  protocol buffers we should go on with that . Or if we are using json we should go on with that MessagePack should be considered here for optimization.
+But what is the best serialization technology and how are we going to decide it.
+If we have already started with  protocol buffers we should go on with that . Or if we are using json we should go on with that, MessagePack can  be considered here for optimization.
 Avro should be used if we are dealing with big data.
 
 The companies using the technology are:
-Facebook, Cassandra project  Apache Thrift
-Google,  ActiveMQ Protocol Buffers
-Avro Apache Hadoop
+*Facebook, Cassandra project*  Apache Thrift
+*Google,  ActiveMQ* Protocol Buffers
+*Apache Hadoop* Avro 
 Protocol Buffers have a better documentation when compared with Apache Thrift. Protocol Buffers are slightly faster. 
 Avro does not require that code be generated. Data is always accompanied by a schema that permits full processing of that data without
 code generation, static datatypes, etc.
