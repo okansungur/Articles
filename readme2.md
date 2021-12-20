@@ -20,7 +20,8 @@ In Avro serialisation and deserialization can be done without code generation. A
 
 
 
-There is a Benchmarking for thrift-protobuf-Avro and you get get the document from [Benchmark](https://code.google.com/archive/p/thrift-protobuf-compare/wikis/BenchmarkingV2.wiki)
+There is a Benchmarking for thrift-protobuf-Avro and you can get the document from [Benchmark](https://code.google.com/archive/p/thrift-protobuf-compare/wikis/BenchmarkingV2.wiki) There is also serialization and deserialization performances 
+
 
 <p align="center">
   <img  src="https://github.com/okansungur/Articles/blob/main/Create_object_serialize_deserialize.png"><br/>
@@ -28,10 +29,8 @@ There is a Benchmarking for thrift-protobuf-Avro and you get get the document fr
 </p>
 
 
-![This is an image]()
 
-Total Time 
-Create an object, serialize it to a byte array, then deserialize it back to an object. 
+
 
 
 
