@@ -1,6 +1,7 @@
 # Articles
 
 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@okansungur/10"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@okansungur/5" alt="Recent Article 10"></a>
 
 
 
