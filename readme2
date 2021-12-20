@@ -22,7 +22,13 @@ In Avro serialisation and deserialization can be done without code generation. A
 
 There is a Benchmarking for thrift-protobuf-Avro and you get get the document from [Benchmark](https://code.google.com/archive/p/thrift-protobuf-compare/wikis/BenchmarkingV2.wiki)
 
-![This is an image](https://chart.apis.google.com/chart?chtt=total&chf=c||lg||0||FFFFFF||1||76A4FB||0|bg||s||EFEFEF&chs=700x390&chd=t:3396,3477,3606,3714,3821,4418,4472,5173,5433,6344,6640,6817,7034,7094,7342,7481,7717,8002,8138,9170,9590,11892,12268,13005,19082,20038,22436,23467,26402,27639,31339,32480,41521,42950,44923,63267,75261,112497,140017,173274&chds=0,190602.35259999998&chxt=y&chxl=0:|json%2Fgoogle-gson|json%2Fprotobuf|scala%2Fjava-built-in|java-built-in|xml%2Fxstream%2Bc|bson%2Fmongodb|xml%2Fxstream%2Bc-fastinfo|xml%2Fxstream%2Bc-woodstox|xml%2Fxstream%2Bc-aalto|xml%2Fmanual-fastinfo|xml%2Fjavolution|bson%2Fjackson-databind|hessian|bson%2Fjackson-manual|xml%2Fjackson-databind%2Faalto|xml%2Fmanual-woodstox|avro-generic|avro|xml%2Fmanual-aalto|json%2Fjackson-databind|json%2Fprotostuff-runtime|smile%2Fjackson-databind|smile%2Fprotostuff-runtime|json%2Fprotostuff-manual|scala%2Fsbinary|json%2Fjackson-manual|thrift|protobuf%2Factivemq%2Balt|thrift-compact|protobuf|smile%2Fprotostuff-manual|smile%2Fjackson-manual|kryo|kryo-opt|protostuff-runtime|kryo-manual|protobuf%2Fprotostuff|protostuff|protostuff-manual|java-manual&chm=N%20*f*,000000,0,-1,10&lklk&chdlp=t&chco=660000|660033|660066|660099|6600CC|6600FF|663300|663333|663366|663399|6633CC|6633FF|666600|666633|666666&cht=bhg&chbh=5,0,4&nonsense=aaa.png%27)
+<p align="center">
+  <img  src="https://github.com/okansungur/Articles/blob/main/Create_object_serialize_deserialize.png"><br/>
+ 
+</p>
+
+
+![This is an image]()
 
 Total Time 
 Create an object, serialize it to a byte array, then deserialize it back to an object. 
